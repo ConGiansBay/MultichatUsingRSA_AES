@@ -409,15 +409,31 @@ bool primalityCheck(largeNumber_128 num) {
     }
     return false;
 }
-string primalityCheck_result(largeNumber_128 num) {
+bool primalityCheck_result(largeNumber_128 num) {
     int count = 0;
     for (int i = 0; i < 50; i++) {
         if (primalityCheck(num) == true)
             count++;
     }
     if (count == 50) 
-        return "possible prime";
-    return "not prime";
+        return true;
+    return false;
+}
+largeNumber_128 createRandomPrime() {
+    while (true) {
+        UInt128 random1 = createRandomLargeNumber();
+
+        // Chuyển largeNumber.high và largeNumber.low thành chuỗi
+        string highStr1 = to_string(random1.high);
+        string lowStr1 = to_string(random1.low);
+
+        // Ghép chuỗi
+        string resultStr = highStr1 + lowStr1;
+        largeNumber_128 num;
+        num.read(resultStr);
+
+        if (primalityCheck_result(num)) return num;
+    }
 }
 int main() {
     // Khởi tạo bộ tạo số ngẫu nhiên dựa trên thời gian
@@ -476,6 +492,10 @@ int main() {
     if (num6 % 2 == 0)
         num6 -= 1;
     cout << "Num 6 = " << num6 << endl;
-    cout << "Num 6 is " << primalityCheck_result(num6) << endl;
+    if(primalityCheck_result(num6))
+        cout << "Num 6 is possible prime" << endl;
+        else
+            cout<< "Num 6 is not prime" << endl;
+    cout << "Random prime number: " << createRandomPrime() << endl;
     return 0;
 }
