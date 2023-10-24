@@ -63,6 +63,7 @@
             tb_SerRSAPubkey.Multiline = true;
             tb_SerRSAPubkey.Name = "tb_SerRSAPubkey";
             tb_SerRSAPubkey.ReadOnly = true;
+            tb_SerRSAPubkey.ScrollBars = ScrollBars.Both;
             tb_SerRSAPubkey.Size = new Size(417, 152);
             tb_SerRSAPubkey.TabIndex = 1;
             // 
@@ -72,6 +73,7 @@
             tb_ClientRSApubkey.Multiline = true;
             tb_ClientRSApubkey.Name = "tb_ClientRSApubkey";
             tb_ClientRSApubkey.ReadOnly = true;
+            tb_ClientRSApubkey.ScrollBars = ScrollBars.Both;
             tb_ClientRSApubkey.Size = new Size(417, 152);
             tb_ClientRSApubkey.TabIndex = 1;
             // 
@@ -81,6 +83,7 @@
             tb_ClientRSAprikey.Multiline = true;
             tb_ClientRSAprikey.Name = "tb_ClientRSAprikey";
             tb_ClientRSAprikey.ReadOnly = true;
+            tb_ClientRSAprikey.ScrollBars = ScrollBars.Both;
             tb_ClientRSAprikey.Size = new Size(417, 152);
             tb_ClientRSAprikey.TabIndex = 1;
             // 
@@ -117,6 +120,7 @@
             tb_AESkey.Multiline = true;
             tb_AESkey.Name = "tb_AESkey";
             tb_AESkey.ReadOnly = true;
+            tb_AESkey.ScrollBars = ScrollBars.Both;
             tb_AESkey.Size = new Size(541, 115);
             tb_AESkey.TabIndex = 1;
             // 
@@ -135,6 +139,7 @@
             tb_SerIP.Name = "tb_SerIP";
             tb_SerIP.Size = new Size(286, 27);
             tb_SerIP.TabIndex = 1;
+            tb_SerIP.Text = "127.0.0.1";
             // 
             // tb_UserName
             // 

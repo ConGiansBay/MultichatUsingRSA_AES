@@ -70,6 +70,7 @@
             tb_SerRSAprikey.Multiline = true;
             tb_SerRSAprikey.Name = "tb_SerRSAprikey";
             tb_SerRSAprikey.ReadOnly = true;
+            tb_SerRSAprikey.ScrollBars = ScrollBars.Both;
             tb_SerRSAprikey.Size = new Size(481, 152);
             tb_SerRSAprikey.TabIndex = 18;
             // 
@@ -79,6 +80,7 @@
             tb_SerRSAPubkey.Multiline = true;
             tb_SerRSAPubkey.Name = "tb_SerRSAPubkey";
             tb_SerRSAPubkey.ReadOnly = true;
+            tb_SerRSAPubkey.ScrollBars = ScrollBars.Both;
             tb_SerRSAPubkey.Size = new Size(481, 152);
             tb_SerRSAPubkey.TabIndex = 12;
             // 
