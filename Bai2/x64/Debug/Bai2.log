@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\AnToanMang\TH\Lab 2\MultiChat\Bai2\main.cpp(101,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\AnToanMang\TH\Lab 2\MultiChat\Bai2\main.cpp(149,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\AnToanMang\TH\Lab 2\MultiChat\Bai2\main.cpp(172,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\AnToanMang\TH\Lab 2\MultiChat\Bai2\main.cpp(219,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\AnToanMang\TH\Lab 2\MultiChat\Bai2\main.cpp(240,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\AnToanMang\TH\Lab 2\MultiChat\Bai2\main.cpp(291,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Bai2.vcxproj -> D:\AnToanMang\TH\Lab 2\MultiChat\x64\Debug\Bai2.exe
